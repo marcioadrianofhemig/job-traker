@@ -24,6 +24,7 @@ function readTask(formData: FormData) {
 function revalidateAll() {
   revalidatePath("/tasks");
   revalidatePath("/applications/[id]", "page");
+  revalidatePath("/stats");
 }
 
 export async function createTask(

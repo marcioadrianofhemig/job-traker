@@ -43,6 +43,7 @@ function revalidateAll() {
   revalidatePath("/applications");
   revalidatePath("/applications/[id]", "page");
   revalidatePath("/tasks");
+  revalidatePath("/stats");
 }
 
 export async function createApplication(

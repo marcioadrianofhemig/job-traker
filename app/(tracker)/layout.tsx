@@ -22,6 +22,9 @@ export default function TrackerLayout({
             <Link href="/tasks" className="hover:underline underline-offset-4">
               Tasks
             </Link>
+            <Link href="/stats" className="hover:underline underline-offset-4">
+              Statistics
+            </Link>
           </div>
           <Suspense>
             <AuthButton />
